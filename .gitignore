@@ -1,0 +1,29 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Run outputs and caches
+cdq_v3/out/
+out/
+outputs/
+results/
+*.sqlite
+*.sqlite3
+*.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local migration metadata
+_migration_manifest.json
