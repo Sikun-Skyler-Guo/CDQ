@@ -7,6 +7,12 @@ This repository contains two connected pipelines:
 - Curiosity-driven question generation (`cdq_v3/`).
 - Research ideation baselines (Single, RAG, Iterative) plus evaluation scripts.
 
+## Paper
+
+- [Full version with extended appendix](paper/CDQ_full_version.pdf)
+
+The official KDD proceedings version follows the conference page limits; this repository provides the full version with the extended appendix for reproducibility and implementation details.
+
 ## Project Layout
 
 ```
@@ -21,6 +27,8 @@ This repository contains two connected pipelines:
 ├── prompt_manager.py         # Prompt templates
 ├── openai_client.py          # API client wrapper
 ├── config.py                 # Environment-variable API key shim for baseline scripts
+├── paper/
+│   └── CDQ_full_version.pdf  # Full version with extended appendix
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
 ```
